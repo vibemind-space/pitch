@@ -115,7 +115,7 @@ Speed: from idea to working prototype in **hours, not months**.
 
 - **Website:** [vibemind.space](https://vibemind.space)
 - **Pitch Deck:** [View interactive deck](https://vibemind-space.github.io/pitch/)
-- **Main Repo:** [vibemind-os](https://github.com/vibemind-space/vibemind-os) *(coming soon)*
+- **Main Repo:** [vibemind-os](https://github.com/vibemind-space/vibemind-os) — 370K LOC, the full AI operating system
 
 ---
 
