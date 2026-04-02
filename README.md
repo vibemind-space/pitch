@@ -118,8 +118,32 @@ Speed: from idea to working prototype in **hours, not months**.
 
 ---
 
+## Save the Queen
+
+> *If you want to see me fly, then give me some honey.*
+> *Currently ran out of money,*
+> *but instead of having a coffee — which I love indeed —*
+> *I would buy my girl some flowers,*
+> *cause her is all I need.*
+
+This isn't a corporate fundraise. This is one builder, his girlfriend who believed in him, and a vision that the way we work with computers is about to change forever.
+
+**We want to kill computer work.** Not the people — the pointless clicking, typing, dragging. The hours wasted on things AI agents can handle in seconds.
+
+Every dollar goes into making VibeMind real. No fancy offices. No executive salaries. Just code, servers, and flowers for the queen.
+
+<p align="center">
+  <a href="https://paypal.me/DEIN_LINK_HIER"><img src="https://img.shields.io/badge/Fund%20the%20Dream-%E2%98%95%20%E2%86%92%20%F0%9F%8C%B7-00D4AA?style=for-the-badge&logo=paypal" /></a>
+</p>
+
+<p align="center">
+  <i>Crowdfunding / Save the Queen / till Vibemind becomes your Dream.</i>
+</p>
+
+---
+
 <p align="center">
   <b>Viva la Revolucion</b><br>
   <i>Join the voice-first revolution</i><br><br>
-  <i>One builder. Eight open-source repos. One coherent AI operating system.</i>
+  <i>One builder. One queen. One dream.</i>
 </p>
