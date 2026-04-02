@@ -62,7 +62,7 @@ One person. No team. No co-founders. No funding yet.
 
 Built the cognitive brain from scratch. Wrote 16 security PoCs. Designed the voice pipeline. Integrated 8 independent open-source repos into one system. Deployed 5 microservices. Connected 27 LLM providers.
 
-**Why this matters to investors:** Felix ships at the speed of a 10-person team because he builds ON open source, not FROM scratch. That's capital-efficient engineering. The 500K ask isn't for rebuilding — it's for scaling what already works.
+Ships at the speed of a 10-person team by building ON open source, not from scratch.
 
 </td>
 </tr>
