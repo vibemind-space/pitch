@@ -133,7 +133,7 @@ This isn't a corporate fundraise. This is one builder, his girlfriend who believ
 Every dollar goes into making VibeMind real. No fancy offices. No executive salaries. Just code, servers, and flowers for the queen.
 
 <p align="center">
-  <a href="https://paypal.me/DEIN_LINK_HIER"><img src="https://img.shields.io/badge/Fund%20the%20Dream-%E2%98%95%20%E2%86%92%20%F0%9F%8C%B7-00D4AA?style=for-the-badge&logo=paypal" /></a>
+  <a href="https://www.paypal.com/pool/9nZ9fEtoPJ?sr=wccr"><img src="https://img.shields.io/badge/Fund%20the%20Dream-%E2%98%95%20%E2%86%92%20%F0%9F%8C%B7-00D4AA?style=for-the-badge&logo=paypal" /></a>
 </p>
 
 <p align="center">
