@@ -62,7 +62,7 @@ One person. No team. No co-founders. No funding yet.
 
 Built the cognitive brain from scratch. Wrote 16 security PoCs. Designed the voice pipeline. Integrated 8 independent open-source repos into one system. Deployed 5 microservices. Connected 27 LLM providers.
 
-Ships at the speed of a 10-person team by building ON open source, not from scratch.
+AI, Rust, Python, TypeScript, neuroscience, security, voice, video, infra, DevOps — one person, all domains.
 
 </td>
 </tr>
