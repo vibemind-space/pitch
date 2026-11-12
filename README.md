@@ -1,120 +1,120 @@
 <p align="center">
-  <img src="https://img.shields.io/badge/Status-Seed%20Round-00D4AA?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Ask-%E2%82%AC500K-white?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Open%20Source-8%20repos%20integrated-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Solo%20Founder-1%20person-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Ask-%E2%82%AC100K%20first%20round-00D4AA?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Spaces-5%20live-white?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Team-18%20people-blue?style=for-the-badge" />
 </p>
 
-# VibeMind
+# Vibemind
 
-### Speak ideas into existence. Let AI agents handle the rest.
+### Agent spaces for your business.
 
-VibeMind is an **open-source, voice-first AI operating system** that integrates the best open-source AI tools into 14 coordinated workspaces — turning spoken ideas into fully functional software, designs, and business assets.
+Vibemind is an **open-source operating system for a fleet of AI agents**. Spaces bound what can happen, and agents do the work inside them. Each space works on its own or as part of Vibemind.
 
-> **We're raising a seed round.** If you're interested in the future of human-computer interaction, read on.
+This repository holds the pitch deck. The deck is one file, `index.html`, and is served at [vibemind-space.github.io/pitch](https://vibemind-space.github.io/pitch/) and embedded at [vibemind.space/pitch](https://vibemind.space/pitch).
 
----
-
-## The Problem
-
-PC interaction hasn't fundamentally changed in 40 years. We still click, type, drag. Meanwhile AI can write code, design interfaces, manage projects — but every tool is isolated, every agent works alone, and nothing talks to anything else.
-
-## Our Solution
-
-One person took the best open-source AI projects and **wired them into a single coherent operating system** where your voice is the only interface you need:
-
-- **Ideas Space** — Speak a thought, get structured plans with market research
-- **Project Space** — Describe an app, get full-stack code with live preview
-- **Desktop Space & Rachel** — Voice-controlled OS with a personal AI assistant
-- **The Brain** — Neuroscience-inspired cognitive routing across all workspaces
-- **SWE Design & Rowboat** — From requirements to architecture to knowledge
-- **Agent Farm, Video Studio & More** — The complete autonomous workspace
+> **We are raising a first funding round of €100K.**
 
 ---
 
-## Architecture
+## The problem
 
-VibeMind doesn't reinvent the wheel — it builds the car.
+A language model on its own does nothing. Everything that turns its output into work is the harness: routing, execution, memory and transport. For two years that is where the real engineering went, and almost none of it has been public.
 
-| Layer | What | Built by Felix | Integrated OSS |
-|-------|------|----------------|----------------|
-| **Cognitive Brain** | 43 neuro modules, 14 cognitive agents, 5 microservices | The brain, bridge, routing, orchestration | AutoGen framework |
-| **Voice UI** | 3D Electron interface, real-time voice control | Voice pipeline, 14 domain agents, space routing | Electron, Three.js |
-| **Agent OS** | Multi-provider LLM orchestration, 53 tools | Integration layer, config, deployment | OpenFang (Rust) |
-| **Workspaces** | 14 specialized spaces with sub-agents | Space agents, glue code, business logic | Rowboat, MiroFish, n8n |
-| **Coding** | Autonomous code generation from voice | Coding agents, worker architecture | OpenClaw |
-| **Security** | 16 PoCs — red team, forensics, defense | All 16 PoCs | — |
-| **Infra** | Docker, deployment, DevOps | All orchestration | Docker, PostgreSQL |
+An agent with every tool is an agent you cannot reason about. Choosing among twelve tools is tractable; choosing among five hundred is not.
 
-**The integration IS the product.** Anyone can download OpenFang or AutoGen individually. Nobody else has wired them into a voice-controlled AI operating system with a neuroscience-inspired brain.
+## Our answer
+
+- A **space** is a bounded working context with its own agents, tools and vocabulary: sales, marketing, video, business data.
+- Each space carries a label (live, in progress or research) and says whether its code is open source.
+- The umbrella repository, [vibemind-os](https://github.com/vibemind-space/vibemind-os), is public under the MIT licence. Other components carry their own licences; the [licensing page](https://vibemind.space/docs/licensing) lists every one.
 
 ---
 
-## The Builder
+## Spaces
 
-<table>
-<tr>
-<td width="600">
+| Status | Spaces |
+|--------|--------|
+| **Live** on our own server | Sales Claw, Marketing Agent, Business Data Layer (Rowboat), Video (Laura), MiroFish |
+| **In progress** | Learning (Academy), Personal Space, Ideas, Desktop Automation, Deep Research, Scheduling, Requirements Factory, Software Design, Coding, Project Intake, Event Management |
+| **Research** | Captain Cook, Agent Farm |
 
-**Felix Baumann** — Solo Founder, Systems Architect, Integrator
+In progress means the code exists but is not finished; several of these do not run today. Research is not offered yet. The [website](https://vibemind.space) shows every space with its current label.
 
-One person. No team. No co-founders. No funding yet.
+---
 
-Built the cognitive brain from scratch. Wrote 16 security PoCs. Designed the voice pipeline. Integrated 8 independent open-source repos into one system. Deployed 5 microservices. Connected 27 LLM providers.
+## How it works
 
-AI, Rust, Python, TypeScript, neuroscience, security, voice, video, infra, DevOps — one person, all domains.
+1. You type an intent or send it from a messaging channel. Voice is designed as a third entry point and is not working today.
+2. The Brain matches it against a registry of 119 capabilities, by regular expression first.
+3. Without a hit, a model answers directly or plans the steps. The semantic fallback in between is not working yet.
+4. Agents in the OpenFang runtime carry out the steps with the tools they are bound to. A follow-up loop checks the result before delivery.
+5. The executed plan is logged. Decisions go to one memory, your material lives in another.
 
-</td>
-</tr>
-</table>
+| Layer | What it is |
+|-------|------------|
+| **Routing** | The Brain. Its behaviour is configuration you can read. |
+| **Execution** | OpenFang, a Rust agent runtime with 43 agents. Most run as Claude Code subprocesses with scoped tools and a timeout. |
+| **Tools** | 50 in-house MCP servers with 798 tools, counted from the code on 27 October 2026. |
+| **Channels** | Telegram and WhatsApp are configured. |
+| **Models** | Adapters for 42 providers; in practice most agents use one hosted Claude model. |
+
+---
+
+## What we verified
+
+Runtime checks as of 27 October 2026, space labels as of 11 November 2026.
+
+- Five spaces run on our own server. Marketing and Video still generate on a workstation.
+- The agent task chain ran end to end: order, agent, check, delivery.
+- Regex routing with ground-truth checks against the live database works.
+- A Telegram message to the bot was answered end to end in under 30 seconds.
+- **Not running:** the Brain's request service is scaled down for now. Voice, scheduling and the coding engine are untested.
+
+Every claim our website has made is checked against the code and listed in the [claims register](https://vibemind.space/reconcile), with what changed.
+
+---
+
+## The team
+
+18 people: three co-founders, three leads and four teams, most of us in Germany, our CEO in Lebanon.
+
+| Name | Role |
+|------|------|
+| **Felix Baumann** | Co-founder, CTO · Munich |
+| **Stéphane Boghossian** | Co-founder, CEO · Lebanon |
+| **Sophie Simic** | Co-founder, CMO · Munich |
+| **Surya** | COO · Munich |
+| **Bora** | Head of Sales · Munich |
+| **Samu** | Head of Machine Learning · Munich |
+
+Teams: Vibe Coding · Homelab & Infrastructure · Sales, Business & Finance · Ethics
 
 felix@vibemind.space
 
 ---
 
-## Traction
+## Business model
 
-| Metric | Value |
-|--------|-------|
-| Domain workspaces | **14** fully functional spaces |
-| Security PoCs | **16** built and tested |
-| Integrated OSS repos | **8** wired into one system |
-| LLM providers | **27** connected (OpenAI, Anthropic, Gemini, Groq, DeepSeek, Ollama...) |
-| Cognitive modules | **43** neuroscience-inspired routing modules |
-| Microservices | **5** running in production |
-
-Speed: from idea to working prototype in **hours, not months**.
+- **Spaces on request:** pick a space and get it running for your business, on its own or as part of Vibemind.
+- **AI consulting and courses:** three levels plus 1:1 sparring on your own project. First 30 minutes free, price on request.
+- **Open-source core:** the umbrella repository is public under MIT.
+- **Next: hosted cloud.** On the roadmap, not available today.
 
 ---
 
-## Business Model
+## The ask
 
-**Open Source core + commercial services**
-
-- Community Edition: free, open-source
-- Managed Cloud: hosted SaaS for teams
-- Enterprise: on-prem, custom agents, SLA
-- Marketplace: agent & template marketplace
-
----
-
-## The Ask
-
-**Seed Round: 500K**
-
-| Milestone | Timeline |
-|-----------|----------|
-| Public open-source release, 500+ GitHub stars | Q2 2026 |
-| Managed cloud beta, first paying enterprise pilots | Q3 2026 |
-| 2,000+ active users, marketplace launch | Q4 2026 |
+**First funding round: €100K**
 
 ---
 
 ## Links
 
 - **Website:** [vibemind.space](https://vibemind.space)
-- **Pitch Deck:** [View interactive deck](https://vibemind-space.github.io/pitch/)
-- **Main Repo:** [vibemind-os](https://github.com/vibemind-space/vibemind-os)
+- **Pitch deck:** [View interactive deck](https://vibemind-space.github.io/pitch/)
+- **Main repo:** [vibemind-os](https://github.com/vibemind-space/vibemind-os)
+- **Documentation:** [vibemind.space/docs](https://vibemind.space/docs)
+- **Claims register:** [vibemind.space/reconcile](https://vibemind.space/reconcile)
 
 ---
 
